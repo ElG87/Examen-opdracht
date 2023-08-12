@@ -1,13 +1,12 @@
 $(document).ready(function(){
 
-    let divBlog1 = document.getElementById("preview-blog1");
+    const divBlog1 = document.getElementById("preview-blog1");
 
-    let divBlog2 = document.getElementById("preview-blog2")
+    const divBlog2 = document.getElementById("preview-blog2")
 
-    let divBlog3 = document.getElementById("preview-blog3")
-
-$('#knop-blog-1').on('click', function(){    
-$('divBlog2').load('archief.html #blog-2'); 
+    const divBlog3 = document.getElementById("preview-blog3")
+    
+$('divBlog1').load('archief.html #blog-1'); 
 $('divBlog3').load('archief.html #blog-3'); 
-});
+
 });
