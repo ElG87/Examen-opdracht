@@ -6,5 +6,5 @@ $(document).ready(function(){
 
     const divBlog3 = document.getElementById("preview-blog3")
 
- divBlog1.innerHTML = 'object width="100%" type="text/html" data="archief.html"</object>';
+ divBlog1.innerHTML = 'archief.html';
 });
