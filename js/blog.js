@@ -1,10 +1,10 @@
-$(document).ready(function(){
-
-    const divBlog1 = document.getElementById("preview-blog1");
-
-    const divBlog2 = document.getElementById("preview-blog2")
-
-    const divBlog3 = document.getElementById("preview-blog3")
-
- divBlog1.innerHTML = 'archief.html';
+$(document).ready(function() {
+    $('#knop-blog1').on('click', function () {
+        $('#preview-blog1').load('archief.html #blog-1',() =>{
+                    $('#divResult').html('Blog 1 succesvol geladen');
+                    if('#divResult' = success){
+                        alert('succesvol')
+                    };
+        });
+    });
 });
