@@ -42,6 +42,7 @@ body{
     p , .titel { 
         padding: 4%;
         }
+
     /*Opmaak links*/
         .prijslijst{
             background-color: #ffb489;
@@ -89,6 +90,7 @@ display: inline-block;
 #header{
 padding: 5% 5% 8% 5%;
 }
+
 /*Opmaak navigatiemenu*/
 .navigatie  ul{
 float: left;

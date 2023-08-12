@@ -3,43 +3,44 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="opmaak-muziekschool.css">
+        <link rel="stylesheet" href="../css/index.css">
         <title>Muziekschool H&J</title>
     </head>
     <body>
-        <header>
+        <header id="header">
             <h1>Muziekschool H&J</h1>
             <h3>Luisterend oor <i>voor</i> talent!</h3>
         </header>
         <nav class="col-12 navigatie">
             <ul>
                 <li class="link"><a href="#">Home</a></li>
-                <li class="link"><a href="overons.html">Over ons</a></li>
-                <li class="link"><a href="tarieven.html">Tarieven</a></li>
-                <li class="link"><a href="contact.html">Contact</a></li>
+                <li class="link"><a href="html/overons.html">Over ons</a></li>
+                <li class="link"><a href="html/tarieven.html">Tarieven</a></li>
+                <li class="link"><a href="html/contact.html">Contact</a></li>
+                <li class="link"><a href="html/blog.html">Blog</a></li>
             </ul>
         </nav>
-        <section class="layout">
+        <section class="col-12 layout">
             <div class="col-11 intro">
-                <h2>Muziekschool</h2>
-                <h5>voor koperblazers en saxofonisten</h5>
+                <h2 class="titel">Muziekschool</h2>
+                <h5 class="titel">voor koperblazers en saxofonisten</h5>
                 <div>        
-                    <img id="saxofoon-1" src="saxofoon.jpeg" alt="Liggende saxofoon">
+                    <img id="saxofoon-1" src="../afbeeldingen/saxofoon.jpeg" alt="Liggende saxofoon">
                 </div>
                     <p>
                         Evenals bij de klarinet, is bij de saxofoon aan de onderkant van het mondstuk een enkel stuk riet bevestigd door middel van een metalen band (de saxofoon hoort dan ook bij de enkelriet-instrumenten).
                     </p>
 
-                <h3>Toonvorming</h3>
+                <h3 class="titel">Toonvorming</h3>
                     <p>
                         Om geluid uit de saxofoon te krijgen, moet je lucht persen tussen het riet en het mondstuk. Hierdoor breng je het riet in trilling en wordt een toon gemaakt. Kleppen zorgen ervoor dat de gaten, die in de buis van het instrument zijn geboord, afgesloten kunnen worden. Door het indrukken of loslaten van deze kleppen, kun je op dit instrument verschillende tonen maken.      
                     </p>
             </div>
             <div class="col-11 welkom">
-                <h2 class="koptekst">Welkom bij muziekschool H&J</h2>
-                <h5>Muziekschool voor koperblazers en saxofonisten</h5>
+                <h2 class="titel">Welkom bij muziekschool H&J</h2>
+                <h5 class="titel">Muziekschool voor koperblazers en saxofonisten</h5>
                 <div>
-                    <img id="trompetman" src="trompet.jpeg" alt="Man met trompet">
+                    <img id="trompetman" src="../afbeeldingen/trompet.jpeg" alt="Man met trompet">
                 </div>    
                 <p>
                         Zou het niet leuk zijn als je een saxofoon, trompet of een ander blaasinstrument zou kunnen bespelen? Dat vergt niet alleen veel oefening, maar het is ook belangrijk dat je daarbij de juiste hulp en ondersteuning krijgt. Hannah en Jesse, de muzikanten achter deze muziekschool, kunnen jou die ondersteuning geven. Ze zijn beiden afgestudeerd aan het conservatorium en hebben veel ervaring met het geven van muziekles
@@ -50,10 +51,10 @@
                     </p>
                     <br>
                     <div class="col-11 specialisatie">
-                        <h2 class="koptekst">SPECIALISATIE</h2>
-                        <h5>Muziekschool H&J is gespecialiseerd in jazzmuziek.</h5>
+                        <h2 class="titel">SPECIALISATIE</h2>
+                        <h5 class="titel">Muziekschool H&J is gespecialiseerd in jazzmuziek.</h5>
                         <div id="divsaxoman">
-                            <img id="saxofoonman" src="saxofoon2.jpeg" alt="Man met saxofoon">
+                            <img id="saxofoonman" src="../afbeeldingen/saxofoon2.jpeg" alt="Man met saxofoon">
                         </div>
                         <br>
                             <p>
@@ -63,16 +64,19 @@
                             <p>
                                 Op deze website vind je veel informatie over wat deze muziekschool te bieden heeft, maar je kunt natuurlijk altijd vrijblijvend langskomen om meer informatie te krijgen. Je kunt dan ook kennismaken en kijken of je een klik hebt met Hannah en/of Jesse.
                             </p>
-        
                     </div>
-            </div>
+                </div>
         </section>
-        <div id="footer">
-            <footer> <h5>&#169; Copyright 2023 Elly Gomes
-                <br>
-                Ontworpen door Elly voor praktijkexamen NHA 2023</h5>
-            </footer>
-        </div>
-        <script src="index.js"></script>
-    </body>
+        <footer class="col-12">
+            <div id="footer">
+                <h5 id="footer-tekst">&#169; Copyright 2023 Elly Gomes<br>
+                Ontworpen door Elly voor praktijkexamen NHA 2023
+                </h5>
+            </div>
+        </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" crossorigin="anonymous"></script>
+    <script src="../js/blog.js"></script>
+        <noscript>Om deze website optimaal te gebruiken us het noodzakelijk om Javascript te activeren.
+        </noscript>
+        </body>
 </html>
