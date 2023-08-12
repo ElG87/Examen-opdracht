@@ -58,6 +58,7 @@ body{
     }
     img{
         float: left;
+        display: block;
         width: 20%;
         padding: 1%;
     }
