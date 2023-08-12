@@ -5,5 +5,4 @@ $('#knop-blog-1').on('click', function(){
 
 $('detailpagina.html #huidige-blog').load('archief.html #blog-1');    
 })
-
 });
