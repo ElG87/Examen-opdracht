@@ -20,7 +20,5 @@ $(document).ready(function() {
              }
         });
     });
-    $('#preview-blog3').load('archief.html #blog-3 #img-blog3, #derde-p , #date3');
+  //  $('#preview-blog3').load('archief.html #blog-3 #img-blog3, #derde-p , #date3');
 
-
-});
