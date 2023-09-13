@@ -8,7 +8,7 @@ $(document).ready(function() {
     
     $('#huidige-blog').load('archief.html #blog-1');
 });
-
+/*
         $('#knop-blog-2').on('click', function(){
         $.ajax({
             url: 'archief.html #blog-2 #img-blog2, #tweede-p , #date2',
@@ -20,5 +20,5 @@ $(document).ready(function() {
              }
         });
     });
+    */
   //  $('#preview-blog3').load('archief.html #blog-3 #img-blog3, #derde-p , #date3');
-
