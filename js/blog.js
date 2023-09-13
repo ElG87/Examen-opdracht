@@ -6,12 +6,14 @@ $(document).ready(function() {
             window.location.href='detailpagina.html';
         });
     
-    $('#huidige-blog').load('archief.html #blog-1');
+    $('#huidige-blog').load('archief.html #blog-1' , () =>{
+        $(#divAlert).html('succesvol geladen');
 
    $.ajax({
         url: 'detailpagina.html',
         succes: function(data){
-            $('#preview-blog2').load('archief.html #blog-2 #img-blog2, #tweede-p , #date2');
+            $('#preview-blog2').load
+                ('archief.html #blog-2 #img-blog2, #tweede-p , #date2');
                 $('#knop-blog-2').on('click', function(){
                     window.location.href='detailpagina.html';
                 });
