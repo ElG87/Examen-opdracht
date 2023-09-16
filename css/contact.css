@@ -23,7 +23,7 @@ body{
 
     /*Opmaak navigatiemenu*/
 .navigatie  ul{
-    background-color:#b85301f6;
+    background-color: #b85301f6;
     text-align: center;
     list-style-type: none;
     margin: 0%;
@@ -49,14 +49,8 @@ body{
         }
         
         .muziekschool-titel{
-            color:#b85301f6; 
+            color: #b85301f6; 
         }
-
-            
-            #div-locatie{
-                padding: 4%;
-                width: 90%;
-            }
     
             #locatie{
                 width: 100%;
@@ -107,7 +101,7 @@ body{
         
      /*Opmaak footer*/
 footer{
-    background-color:       #b85301f6;
+    background-color: #b85301f6;
     padding: 4% 0%;
     text-align: center;
     font-weight: bold; 
@@ -144,19 +138,20 @@ body{
 float: left;
 width: 100%;
 list-style-type: none;
-background-color:#b85301f6;
+background-color: #b85301f6;
 margin: 0%;
 border-bottom: solid 4px #f6aa1c;
 }
         
-        .link{
-            padding: 0%;
-        }
+.link{
+padding: 0%;
+}
     
-        a{
-            float: left;
-            padding: 2%;
-        }
+a{
+float: left;
+padding: 2%;
+}
+            
 .layout{
     clear: left;
     display: flex;
@@ -164,7 +159,7 @@ border-bottom: solid 4px #f6aa1c;
 
  #footer{
     text-align: center;
-    width: 70%;
+    width: 100%;
     display: inline-block;
     padding: 1%;
  }
@@ -172,4 +167,3 @@ border-bottom: solid 4px #f6aa1c;
 #footer-tekst{
     font-size: 100%;
 }
-}        
