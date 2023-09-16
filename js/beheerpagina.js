@@ -1,3 +1,4 @@
+$(document).ready(function() {
 function validateForm() {
     var titel = $("#titel").val();
     var auteur = $("#auteur").val();
@@ -38,3 +39,4 @@ function validateForm() {
       }
     });
   });
+});
